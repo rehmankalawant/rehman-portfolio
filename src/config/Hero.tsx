@@ -71,7 +71,7 @@ export const socialLinks = [
   },
   {
     name: 'Github',
-    href: 'https://github.com/rehman2711/',
+    href: 'https://github.com/rehmankalawant/',
     icon: <Github />,
   },
   {

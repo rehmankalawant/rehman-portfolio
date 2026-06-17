@@ -19,7 +19,7 @@ export const siteConfig = {
   author: {
     name: about.name,
     twitter: '@rehman3001',
-    github: 'rehman2711',
+    github: 'rehmankalawant',
     linkedin: 'rehmankalawant',
     email: 'rehmankalawant@gmail.com',
   },
