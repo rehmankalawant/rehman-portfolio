@@ -2,6 +2,7 @@ import AWS from '@/components/technologies/AWS';
 import Axios from '@/components/technologies/Axios';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Fumadocs from '@/components/technologies/Fumadocs';
+import Gemini from '@/components/technologies/Gemini';
 import Github from '@/components/technologies/Github';
 import MDXIcon from '@/components/technologies/MDXIcon';
 import Motion from '@/components/technologies/Motion';
@@ -68,7 +69,8 @@ export const projects: Project[] = [
       { name: 'Swagger', icon: <Swagger key="swagger" /> },
       { name: 'Xampp', icon: <Xampp key="xampp" /> },
     ],
-    github: 'https://github.com/rehmankalawant/gearshift-api-with-db-express-js',
+    github:
+      'https://github.com/rehmankalawant/gearshift-api-with-db-express-js',
     live: 'https://gearshift-backend-api.onrender.com/',
     details: true,
     projectDetailsPageSlug: '/projects/gearshift-api',
@@ -95,6 +97,26 @@ export const projects: Project[] = [
     live: 'https://display-ui.vercel.app/',
     details: true,
     projectDetailsPageSlug: '/projects/display-ui',
+    isWorking: true,
+  },
+  {
+    title: 'Gemini API Key Integration',
+    description:
+      'A modern AI chat application built with Next.js and the Gemini API. It supports real-time AI conversations, Markdown rendering, syntax-highlighted code blocks, responsive design, and secure API integration for a seamless ChatGPT-like experience.',
+    image: '/project/gemini-api-integration.png',
+    link: 'https://gemini-api-keys-integration.vercel.app/',
+    technologies: [
+      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+      { name: 'React', icon: <ReactIcon key="react" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      { name: 'PostCSS', icon: <PostCSS key="postcss" /> },
+      { name: 'Gemini API', icon: <Gemini key="gemini" /> },
+    ],
+    github: 'https://github.com/rehmankalawant/gemini-api-keys-integration',
+    live: 'https://gemini-api-keys-integration.vercel.app/',
+    details: true,
+    projectDetailsPageSlug: '/projects/gemini-api-key-integration',
     isWorking: true,
   },
 ];
